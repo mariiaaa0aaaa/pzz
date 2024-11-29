@@ -61,10 +61,9 @@ def perform_ssh():
 
 
 if __name__ == "__main__":
-    print("Оберіть завдання для виводу:")
-    print("1: DNS")
-    print("2: FTP")
-    print("3: SSH")
+    print("Оберіть завдання для виводу: 1: DNS")
+    print("                             2: FTP")
+    print("                             3: SSH")
 
     choice = input("Введіть Ваш вибір (1, 2, або 3): ")
     if choice == "1":
@@ -74,4 +73,4 @@ if __name__ == "__main__":
     elif choice == "3":
         perform_ssh()
     else:
-        print("Неіснуючий вибір. Будь-ласка введіть 1, 2, or 3.")
+        print("Неіснуючий вибір. Будь-ласка введіть 1, 2, або 3.")
