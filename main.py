@@ -65,7 +65,7 @@ if __name__ == "__main__":
     print("                             2: FTP")
     print("                             3: SSH")
 
-    choice = input("Введіть Ваш вибір (1, 2, або 3): ")
+    choice = input("Введіть, що Ви обрали: ")
     if choice == "1":
         perform_dns_query()
     elif choice == "2":
