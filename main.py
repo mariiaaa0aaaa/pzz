@@ -37,7 +37,7 @@ def perform_ftp():
             print("README file downloaded.")
         ftp.quit()
     except Exception as e:
-        print(f"FTP Error: {e}")
+        print(f"Помилка FTP-запиту: {e}")
 
 
 # SSH Client
@@ -57,7 +57,7 @@ def perform_ssh():
         print(stdout.read().decode())
         ssh.close()
     except Exception as e:
-        print(f"Помилка SSH: {e}")
+        print(f"Помилка SSH-запиту: {e}")
 
 
 if __name__ == "__main__":
